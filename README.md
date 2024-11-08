@@ -21,7 +21,7 @@ PrestaShop 1.7 lacks built-in versioning for static assets, leaving developers t
 ## Installation & Usage
 
 1. Clone or download the files in this repository. Or just download the two files and place them in `your_prestashop_directory/override/classes/assets`.
-2. Replace or extend `JavascriptManager.php` and `StylesheetManager.php` in your PrestaShop 1.7.6 installation with the modified versions.
+2. Replace or extend `JavascriptManager.php` and `StylesheetManager.php` in your PrestaShop 1.7 installation with the modified versions.
 3. Clear PrestaShop cache to ensure the new versioning system is active. And enjoy automatic versioning on your CSS and JavaScript files, ensuring updates are always loaded without cache issues!
 
-This solution is tested for PrestaShop 1.7.6 and improves the cache handling of JavaScript and CSS files with minimal impact on performance.
+This solution is tested for up to PrestaShop 1.7.8.10 and improves the cache handling of JavaScript and CSS files with minimal impact on performance.
