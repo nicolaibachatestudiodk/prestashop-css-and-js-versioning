@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project adds versioning to JavaScript and CSS files in PrestaShop 1.7.6, allowing developers to automatically append a version parameter to these assets. This feature ensures that updated scripts and styles are always loaded by users, avoiding issues caused by browser caching of outdated files.
+This project adds versioning to JavaScript and CSS files in PrestaShop 1.7 allowing developers to automatically append a version parameter to these assets. This feature ensures that updated scripts and styles are always loaded by users, avoiding issues caused by browser caching of outdated files.
 
 The solution extends `JavascriptManager.php` and `StylesheetManager.php` in PrestaShop to append a `?v=` parameter, generated dynamically from each file's last modified timestamp. This allows browsers to recognize file updates immediately, ensuring that any changes are always visible to end users.
 
