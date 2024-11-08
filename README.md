@@ -1,4 +1,4 @@
-# PrestaShop JavaScript and CSS Versioning for 1.7.6
+# PrestaShop JavaScript and CSS Versioning for 1.7
 
 ## Overview
 
